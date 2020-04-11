@@ -1,21 +1,23 @@
 // クラス
 class User {
-    constructor(protected _name: string) {
+    constructor( name: string) {
+        this.name = name;
+            
     }
     public sayHi(): void {
-        console.log("hi! i am " + this._name);
+        console.log("hi! i am " + this.name);
     }
 }
 
 class AdminUser extends User{
     private _age: number;
-    constructor(_name: string,  _age: number){
-    super(_name);
+    constructor(name: string,  _age: number){
+    super(name);
     this._age = _age;  
     }
     public sayHi(): void {
         console.log("MyAge " + this._age);
-        console.log("MyName " + this._name);
+        console.log("MyName " + this.name);
         super.sayHi();
     }
 }

@@ -1,7 +1,5 @@
 "use strict";
 
-// function add({ a, b }: { a: number; b: number; }): number {     return a + b;
-// }; console.log(add({ a: 1, b: 2 }));
 {
   var boo = false;
   var count = 10; // count
@@ -26,15 +24,17 @@
   }; // console.log(person.name.first)
 
   var firstName = person.name.first; // let n:number = person.age
+  // d(`${firstName}<br>`);
 
-  document.write(firstName + "<br>");
+  console.log({
+    firstName: firstName
+  });
 }
 {
   // const fruits: string[] = ["banana","apple","Grape"]
   var fruits = ["banana", "apple", "Grape", 2];
   fruits.push("Melon", "Orage");
-  fruits;
-  document.write(fruits + "<br>");
+  fruits; // d(`${fruits}<br>`);
 }
 {
   var book = ['biz', 1500, false];
@@ -46,7 +46,5 @@
   }
 
   var sorted = sortByAsc([9329, 87, 654, 321]);
-  console.log(sorted);
-
-  function sortAsc(numbers) {}
+  console.log(sorted); // d(`${sorted}<br>`);
 }

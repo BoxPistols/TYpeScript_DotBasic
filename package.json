@@ -10,5 +10,8 @@
     "test": "echo \"Echo\"",
     "d": "ts-node-dev --respawn",
     "b": "tsc"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4"
   }
 }

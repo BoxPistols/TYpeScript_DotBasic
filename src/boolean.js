@@ -1,7 +1,8 @@
 "use strict";
 exports.__esModule = true;
-// tes
+// プリミティブ型
 var isFinished = true;
 isFinished = false;
-// isFinished = 1
+isFinished = 1;
+var name = 'Name';
 console.log({ isFinished: isFinished });

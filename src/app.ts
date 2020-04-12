@@ -63,7 +63,7 @@
 {
   const arr = [11, 22, 33]
 
-  arr.forEach((value) => {
+  arr.forEach(value => {
     console.log(value)
   })
 
@@ -93,7 +93,7 @@
     b: 22,
     c: 33,
   }
-  Object.keys(obj).forEach((key) => {
+  Object.keys(obj).forEach(key => {
     console.log(key)
   })
 

@@ -1,4 +1,6 @@
 {
+  "license": "No",
+  "private": true,
   "name": "small-npm-pkg",
   "main": "dist/index.js",
   "dependencies": {

@@ -1,7 +1,7 @@
 export {}
 
 let year: number = 1976
-// year = false
+year = false
 console.log(year)
 
 let age:number = 0x2a
@@ -10,4 +10,4 @@ console.log(age)
 
 let name = "Hum"
 console.log(name)
-// name = 0
+// name = 0dev

@@ -6,8 +6,10 @@
     "removeComments": true,
     "strict": true,
     // "sourceMap": true,
-    "module": "system",
-    "outFile": "./dist/app.js",
+    /* if mixin 1 to file packing
+      "module": "system",
+      "outFile": "./dist/app.js",
+    */
   },
   "include": [
     "src/**/*"

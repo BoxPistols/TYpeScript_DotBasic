@@ -1,11 +1,11 @@
-import axios from 'axios'
+// import axios from 'axios'
 
 export {}
 
 let url: string =
   'http://udemy-utils.herokuapp.com/api/v1/articles/?token=token123'
 
-axios
+/* axios
   .get(url)
   .then((res: any) => {
     interface Article {
@@ -27,3 +27,4 @@ axios
   .catch((err: any) => {
     console.error(err)
   })
+ */

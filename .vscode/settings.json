@@ -8,6 +8,11 @@
     "**/CVS": true,
     "**/.DS_Store": true
   },
-  "explorerExclude.backup": null,
-  "eslint.enable": true
+  // "explorerExclude.backup": true,
+  "eslint.enable": true,
+  "codic.ACCESS_TOKEN": "AvOZBVfLAJyMxPcqqbvXhdtE2F9ndWBVEv",
+  "eslint.codeAction.disableRuleComment": {
+    "enable": true
+  },
+  "sync.gist": "5d75d781f509a38db45f4f872aba8912"
 }

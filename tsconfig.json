@@ -6,8 +6,8 @@
     "removeComments": true,
     "strict": true,
     // "sourceMap": true,
-    // "module": "system",
-    // "outFile": "./dist/app.js",
+    "module": "system",
+    "outFile": "./dist/app.js",
   },
   "include": [
     "src/**/*"

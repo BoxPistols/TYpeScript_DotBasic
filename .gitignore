@@ -3,4 +3,3 @@ prepros.config
 # .vscode/
 yarn-error.log
 dist/**/*.js
-dist/

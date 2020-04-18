@@ -14,6 +14,7 @@
     "b": "tsc"
   },
   "devDependencies": {
+    "axios": "^0.19.2",
     "prettier": "^2.0.4"
   }
 }

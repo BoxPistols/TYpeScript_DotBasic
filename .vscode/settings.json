@@ -16,5 +16,7 @@
   },
   "sync.gist": "5d75d781f509a38db45f4f872aba8912",
   "javascript.format.semicolons": "remove",
-  "typescript.format.semicolons": "remove"
+  "typescript.format.semicolons": "remove",
+  "editor.tabSize": 2,
+  // "prettier.breakProperty": true
 }

@@ -4,14 +4,16 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "removeComments": true,
-    "strict": true,
+    "strict": true
+
+    // "module": "esnext",
+    // "moduleResolution": "node"
+
     // "sourceMap": true,
-    /* if mixin 1 to file packing
+    /* if mixin 1 to file packing　
       "module": "system",
-      "outFile": "./dist/app.js",
+      "outFile": "./dist/app.js"
     */
   },
-  "include": [
-    "src/**/*"
-  ],
+  "include": ["src/**/*"]
 }
